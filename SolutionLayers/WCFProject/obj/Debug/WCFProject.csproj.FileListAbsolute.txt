@@ -1,0 +1,22 @@
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\WCFProject\bin\WCFProject.dll.config
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\WCFProject\bin\WCFProject.dll
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\WCFProject\bin\WCFProject.pdb
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\WCFProject\bin\ModeloDatos.dll
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\WCFProject\bin\EntityFramework.dll
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\WCFProject\bin\ModeloDatos.pdb
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\WCFProject\bin\EntityFramework.xml
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\WCFProject\bin\es\EntityFramework.resources.dll
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\WCFProject\obj\Debug\WCFProject.csprojResolveAssemblyReference.cache
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\WCFProject\obj\Debug\WCFProject.dll
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\WCFProject\obj\Debug\WCFProject.pdb
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\WCFProject\bin\WCFProject.dll.config
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\WCFProject\bin\WCFProject.dll
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\WCFProject\bin\WCFProject.pdb
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\WCFProject\bin\ModeloDatos.dll
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\WCFProject\bin\EntityFramework.dll
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\WCFProject\bin\ModeloDatos.pdb
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\WCFProject\bin\EntityFramework.xml
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\WCFProject\bin\es\EntityFramework.resources.dll
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\WCFProject\obj\Debug\WCFProject.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\WCFProject\obj\Debug\WCFProject.dll
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\WCFProject\obj\Debug\WCFProject.pdb

@@ -1,0 +1,24 @@
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\ModeloDatos\bin\Debug\ModeloDatos.dll.config
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\ModeloDatos\bin\Debug\ModeloDatos.dll
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\ModeloDatos\bin\Debug\ModeloDatos.pdb
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\ModeloDatos\bin\Debug\EntityFramework.dll
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\ModeloDatos\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\ModeloDatos\bin\Debug\EntityFramework.xml
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\ModeloDatos\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\ModeloDatos\bin\Debug\es\EntityFramework.resources.dll
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\ModeloDatos\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\ModeloDatos\obj\Debug\ModeloDatos.dll
+c:\users\jjinetec\documents\visual studio 2013\Projects\SolutionLayers\ModeloDatos\obj\Debug\ModeloDatos.pdb
+C:\Users\jjinetec\Documents\Visual Studio 2013\Projects\SolutionLayers\ModeloDatos\obj\Debug\ModeloDatos.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\ModeloDatos\bin\Debug\ModeloDatos.dll.config
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\ModeloDatos\bin\Debug\ModeloDatos.dll
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\ModeloDatos\bin\Debug\ModeloDatos.pdb
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\ModeloDatos\bin\Debug\EntityFramework.dll
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\ModeloDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\ModeloDatos\bin\Debug\EntityFramework.xml
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\ModeloDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\ModeloDatos\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\ModeloDatos\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\ModeloDatos\obj\Debug\ModeloDatos.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\ModeloDatos\obj\Debug\ModeloDatos.dll
+C:\Users\Asus\Google Drive\Soluciones\SolutionLayers\ModeloDatos\obj\Debug\ModeloDatos.pdb

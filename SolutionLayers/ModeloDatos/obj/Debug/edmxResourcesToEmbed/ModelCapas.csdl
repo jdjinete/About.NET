@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProyectoCapasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tbCliente">
+    <Key>
+      <PropertyRef Name="IdCliente" />
+    </Key>
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaNacimiento" Type="DateTime" Precision="3" />
+    <Property Name="Sexo" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IdCliente" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityContainer Name="ProyectoCapasEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tbCliente" EntityType="Self.tbCliente" />
+    <FunctionImport Name="procCrudClientes" ReturnType="Collection(ProyectoCapasModel.procCrudClientes_Result)">
+      <Parameter Name="Accion" Mode="In" Type="Int32" />
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="FechaNacimiento" Mode="In" Type="DateTime" />
+      <Parameter Name="Sexo" Mode="In" Type="String" />
+      <Parameter Name="idCliente" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="procCreateClientes" ReturnType="Collection(String)">
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="FechaNacimiento" Mode="In" Type="DateTime" />
+      <Parameter Name="Sexo" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="procUpdateClientes" ReturnType="Collection(String)">
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="FechaNacimiento" Mode="In" Type="DateTime" />
+      <Parameter Name="Sexo" Mode="In" Type="String" />
+      <Parameter Name="idCliente" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="procDeleteClientes" ReturnType="Collection(String)">
+      <Parameter Name="idCliente" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="procSelectClientes" ReturnType="Collection(ProyectoCapasModel.procSelectClientes_Result)" />
+  </EntityContainer>
+  <ComplexType Name="procCrudClientes_Result">
+    <Property Type="String" Name="Nombre" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="FechaNacimiento" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Sexo" Nullable="true" MaxLength="1" />
+  </ComplexType>
+  <ComplexType Name="procSelectClientes_Result">
+    <Property Type="String" Name="Nombre" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="FechaNacimiento" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Sexo" Nullable="true" MaxLength="1" />
+  </ComplexType>
+</Schema>

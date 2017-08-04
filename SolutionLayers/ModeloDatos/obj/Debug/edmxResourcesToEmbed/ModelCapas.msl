@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProyectoCapasModelStoreContainer" CdmEntityContainer="ProyectoCapasEntities">
+    <EntitySetMapping Name="tbCliente">
+      <EntityTypeMapping TypeName="ProyectoCapasModel.tbCliente">
+        <MappingFragment StoreEntitySet="tbCliente">
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="procCrudClientes" FunctionName="ProyectoCapasModel.Store.procCrudClientes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ProyectoCapasModel.procCrudClientes_Result">
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="procCreateClientes" FunctionName="ProyectoCapasModel.Store.procCreateClientes" />
+    <FunctionImportMapping FunctionImportName="procUpdateClientes" FunctionName="ProyectoCapasModel.Store.procUpdateClientes" />
+    <FunctionImportMapping FunctionImportName="procDeleteClientes" FunctionName="ProyectoCapasModel.Store.procDeleteClientes" />
+    <FunctionImportMapping FunctionImportName="procSelectClientes" FunctionName="ProyectoCapasModel.Store.procSelectClientes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ProyectoCapasModel.procSelectClientes_Result">
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
